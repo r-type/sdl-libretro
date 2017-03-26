@@ -69,7 +69,7 @@ else
 endif
 
 LDFLAGS +=  $(fpic) $(SHARED) ../../../libSDL_$(SDL_PREFIX).a -lpthread $(EXTRA_LDF) 
-FLAGS += -I. -I.. -I../../../include -DNDEBUG 
+FLAGS += -I. -I.. -I../../../include -I./libco -DNDEBUG 
 
 WARNINGS :=  
 	
